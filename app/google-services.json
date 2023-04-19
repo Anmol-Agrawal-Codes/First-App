@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "681050768370",
+    "firebase_url": "https://dev-classes-ec57d-default-rtdb.firebaseio.com",
+    "project_id": "dev-classes-ec57d",
+    "storage_bucket": "dev-classes-ec57d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681050768370:android:a86e72b797e18589fca16b",
+        "android_client_info": {
+          "package_name": "com.example.agrawalclasses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681050768370-i3u9al0lcfn4bpmhadf4ado1tcrt07aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEkQrCI92tBJBnisc289m7Dzg7F6fw6Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681050768370-i3u9al0lcfn4bpmhadf4ado1tcrt07aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
