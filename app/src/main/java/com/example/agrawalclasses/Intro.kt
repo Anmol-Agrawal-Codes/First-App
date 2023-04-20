@@ -5,17 +5,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.example.agrawalclasses.databinding.ActivityIntroBinding
 
 
 class Intro : AppCompatActivity() {
+    lateinit var binding: ActivityIntroBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_intro)
+        binding = ActivityIntroBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         val name = intent.getStringExtra(SignIn.KEY)
 
-        val greet = findViewById<TextView>(R.id.greeting)
-        greet.text = "Welcome $name \n Developer Classes"
+        binding.greeting.text = "Welcome $name \n Developer Classes"
         val btnCourse = findViewById<Button>(R.id.btnExplore)
         btnCourse.setOnClickListener {
             intent = Intent(this, SecondPage::class.java)
