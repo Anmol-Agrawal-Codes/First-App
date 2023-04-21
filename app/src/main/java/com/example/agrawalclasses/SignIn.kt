@@ -41,7 +41,7 @@ class SignIn : AppCompatActivity() {
                 readData(userName, password)
             }
             else{
-                Toast.makeText(this, "Please Enter valid UserName.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please Enter valid UserName & password.", Toast.LENGTH_SHORT).show()
             }
         }
     }
